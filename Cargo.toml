@@ -8,6 +8,8 @@ edition = "2018"
 
 [dependencies]
 clap = "2.33.3"
+env_logger = "0.8.3"
+log = "0.4.14"
 rust_decimal = "1.14.0"
 rust_decimal_macros = "1.14.0"
 serde = { version = "1.0.126", features = ["derive"] }
