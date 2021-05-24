@@ -1,5 +1,10 @@
 # Experiment with using a config file with clap
 
+Also, when using structopt I was unable to get a subcommand with
+no positional arguments or flags to execute. It would just
+show help. Currently using the builder idiom with clap I am
+able to get subcommand "auto-sell" to execute.
+
 ## License
 
 Licensed under either of
